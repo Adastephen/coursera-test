@@ -1,0 +1,48 @@
+/* 1. list syle:none, is used to remove the dot in front of a list
+2. text decoration:none is to remove any underline in the list
+*/
+header {
+	background-color: blue;
+}
+header li {
+	list-style: none;
+}
+a:link, a:visited {
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+	font-weight: bold;
+}
+a:hover, a:active {
+	background-color: white;
+	color: blue;
+}
+section div:nth-child(odd) {
+	background-color: gray;
+}
+section div:nth-child(4):hover {
+	background-color: yellow;
+	color: blue;
+	font-weight: bold;
+
+}
+section div:hover {
+	background-color: blue;
+	color: white;
+}
+#p_in_div {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000ff;
+	font-style: italic;
+	font-size: 24px;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-align: center;
+
+}
